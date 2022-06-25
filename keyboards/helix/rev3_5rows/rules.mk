@@ -8,3 +8,4 @@ MOUSEKEY_ENABLE = yes
 LTO_ENABLE = yes
 
 SRC += oled_display.c
+# SRC += led_matrix.c
