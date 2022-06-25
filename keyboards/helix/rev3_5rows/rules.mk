@@ -10,3 +10,4 @@ DIP_SWITCH_ENABLE = no
 LTO_ENABLE = yes
 
 SRC += oled_display.c
+# SRC += led_matrix.c
