@@ -21,6 +21,17 @@
 #undef SPLIT_HAND_MATRIX_GRID_LOW_IS_RIGHT
 #define MASTER_RIGHT
 
+// See https://docs.qmk.fm/#/tap_hold
+// 120ms hold time to enable "hold" action of dual-role keys
+#define TAPPING_TERM 150
+// Perform dual-role hold action instead of tap if another key is tapped before release, even
+// if this happens in less time than the tapping term
+//#define PERMISSIVE_HOLD
+// Force dual-role key held for TAPPING_TERM before allowing other keypresses to be affected by it.
+#define IGNORE_MOD_TAP_INTERRUPT
+// Prefer hold action instead of tap when tapped quickly, and held.
+#define TAPPING_FORCE_HOLD
+
 #ifdef RGB_MATRIX_ENABLE
   #define DISABLE_RGB_MATRIX_NONE
   #define DISABLE_RGB_MATRIX_SOLID_COLOR     // Static single hue, no speed support
