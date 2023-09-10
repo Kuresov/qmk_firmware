@@ -62,7 +62,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    * |-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------|
    * |       |RGB_SAD|RGB_SAI|       |       |       |       |       |       |       | PREV  | NEXT  | PLAY  |       |
    * |-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------|
-   * |       |RGB_HUD|RGB_HUI|       |       |       |       |       |       |       |       |       |       |PrntScr|
+   * |       |RGB_HUD|RGB_HUI|       |  Alt  |       |       |       |       |       |       |       |       |PrntScr|
    * `---------------------------------------------------------------------------------------------------------------'
    * RGB_TOG: Toggle RGB
    * RGB_MOD/RGBRMOD: Next/previous RGB
@@ -78,7 +78,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       _______, RGB_TOG, RGB_MOD, RGB_RMOD, _______, _______,                   _______, KC_BRIU, KC_BRID, KC_F11,  KC_F12,  KC_BSLS,
       _______, RGB_VAD, RGB_VAI, _______,  _______, _______,                   KC_LEFT, KC_DOWN, KC_UP  , KC_RGHT, KC_VOLD, KC_VOLU,
       _______, RGB_SAD, RGB_SAI, _______,  _______, _______, _______, _______, _______, KC_BRIU, KC_MPRV, KC_MNXT, KC_MPLY, _______,
-      _______, RGB_HUD, RGB_HUI, _______,  _______, _______, _______, _______, _______, _______, _______, _______, _______, KC_PSCR
+      _______, RGB_HUD, RGB_HUI, _______,  _______, KC_LALT, _______, _______, _______, _______, _______, _______, _______, KC_PSCR
       ),
 
   /* Layer 2
